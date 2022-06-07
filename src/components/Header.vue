@@ -2,7 +2,8 @@
   <header>
     <div id="title-toggle">
       <h3>Datagrove Costa Rica</h3>
-      <img src="https://img.icons8.com/pastel-glyph/64/undefined/combo-chart--v2.png" id="logo-img"/>
+      <!-- <img src="https://img.icons8.com/pastel-glyph/64/undefined/combo-chart--v2.png" id="logo-img"/> -->
+      <img src="/circle_logo.png" id="logo-img"/>
       <!-- <img src="../../public/logo_transparent.png" id="logo-img"/> -->
       <Toggle :mode="mode" @toggle="$emit('toggle')" />
     </div>

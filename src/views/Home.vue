@@ -1,6 +1,7 @@
 <template>
     <div class="home">
-        <img src="../../public/logo_transparent.png"/>
+        <!-- <img src="/logo_transparent.png"/> -->
+        <img src="/circle_logo.png" />
         <h1>Better World Software</h1>
         <br>
         <h2><em>Software that is good - because it does good.</em></h2>
@@ -59,6 +60,8 @@ export default {
 
 .home > img {
     border-radius: 50%;
+    height: 200px;
+    margin: 2em;
 }
 
 .hire-btn {
